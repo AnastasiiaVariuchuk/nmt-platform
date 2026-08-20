@@ -5,5 +5,6 @@ import tailwindcss from '@tailwindcss/vite'
 const base = './'
 
 export default defineConfig({
+  base,
   plugins: [react(), tailwindcss()],
 })
